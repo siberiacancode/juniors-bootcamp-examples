@@ -8,7 +8,7 @@
 
 ## Cars
 
-- [1](/cars/2) by [yelaiii](https://github.com/yelaiii) (Typescript, Vue 3.5, Vue Router 4, tailwindcss, nuxt/ui)
+- [1](/cars/1) by [vitrivdolkom](https://github.com/vitrivdolkom/cars-leasing-web) (Typescript, Vue 3.5, Vue Router 4, tailwindcss, nuxt/ui)
 
 ## Ссылки
 
