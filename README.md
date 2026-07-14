@@ -4,7 +4,11 @@
 
 ## Cinema
 
-- [cinema](/cinema/1) by [yelaiii](https://github.com/yelaiii) (Typescript, React 19, Nextjs 16)
+- [1](/cinema/1) by [yelaiii](https://github.com/yelaiii) (Typescript, React 19, Nextjs 16)
+
+## Cars
+
+- [1](/cars/2) by [yelaiii](https://github.com/yelaiii) (Typescript, Vue 3.5, Vue Router 4, tailwindcss, nuxt/ui)
 
 ## Ссылки
 
