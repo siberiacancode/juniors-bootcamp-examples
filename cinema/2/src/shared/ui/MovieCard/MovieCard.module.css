@@ -1,0 +1,45 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.movieCard a {
+  text-decoration: none;
+}
+.poster {
+  width: 100%;
+  aspect-ratio: 580 / 455;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+.genre {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.5%;
+  color: #969696;
+}
+
+@media (max-width: 620px) {
+  .title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+  .genre {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  .movieCard {
+    gap: 8px;
+  }
+}

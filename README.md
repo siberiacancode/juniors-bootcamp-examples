@@ -5,10 +5,15 @@
 ## Cinema
 
 - [1](/cinema/1) by [yelaiii](https://github.com/yelaiii) (Typescript, React 19, Nextjs 16)
+- [2](/cinema/2) by [mynameisedward](https://github.com/mynameisedward/cinema-app) (Typescript, React 19, Tanstack, Mantine 9)
 
 ## Cars
 
 - [1](/cars/1) by [vitrivdolkom](https://github.com/vitrivdolkom/cars-leasing-web) (Typescript, Vue 3.5, Vue Router 4, tailwindcss, nuxt/ui)
+
+## Delivery
+
+- [1](/delivery/1) by [tungulin](https://github.com/tungulin/juniorsbootcamp-projects/tree/master/delivery-project) (Typescript, React 19, React Router 7, tailwindcss, shadcnui)
 
 ## Ссылки
 

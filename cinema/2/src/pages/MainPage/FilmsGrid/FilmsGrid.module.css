@@ -1,0 +1,132 @@
+.firstRow {
+  display: grid;
+  grid-template-columns: repeat(2, 580px);
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.secondRow {
+  display: grid;
+  grid-template-columns: repeat(4, 282px);
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.secondRow h1 {
+  font-size: 24px;
+  line-height: 20px;
+}
+.secondRow h2 {
+  margin-bottom: auto;
+}
+.secondRow > div {
+  height: 381px;
+}
+.secondRow > div > div {
+  max-height: 66px;
+  margin-bottom: auto;
+}
+
+@media (max-width: 1240px) {
+  .firstRow {
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1240px) {
+  .secondRow {
+    display: flex;
+
+    overflow-x: auto;
+
+    gap: 24px;
+
+    scrollbar-width: none;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .secondRow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .secondRow > * {
+    flex: 0 0 282px;
+  }
+}
+@media (max-width: 1200px) {
+  .firstRow {
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1070px) {
+  .firstRow {
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+  }
+}
+@media (max-width: 877px) {
+  .firstRow {
+    /* grid-template-columns: 328px; */
+    grid-template-columns: 580px;
+  }
+}
+@media (max-width: 750px) {
+  .firstRow {
+    grid-template-columns: 528px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .secondRow > * {
+    flex: 0 0 235px;
+  }
+
+  .firstRow,
+  .thirdRow {
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+  }
+
+  .firstRow > img {
+    aspect-ratio: 328 / 235;
+    width: 328px;
+    height: 235px;
+  }
+  .secondRow {
+    gap: 12px;
+  }
+  .secondRow img {
+    aspect-ratio: 235 / 235;
+    width: 235px;
+    height: 235px;
+  }
+  .secondRow button {
+    width: 235px;
+  }
+  .secondRow > * {
+    flex: 0 0 235px;
+  }
+
+  .secondRow img {
+    width: 235px;
+    aspect-ratio: 1;
+  }
+
+  .secondRow button {
+    width: 235px;
+  }
+}
+
+@media (max-width: 620px) {
+  .firstRow {
+    grid-template-columns: 428px;
+  }
+}
+@media (max-width: 445px) {
+  .firstRow {
+    grid-template-columns: 328px;
+  }
+}

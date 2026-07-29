@@ -1,0 +1,19 @@
+.item {
+  width: 104px;
+  height: 58px;
+
+  border-radius: 999px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #171717;
+
+  transition: 0.2s;
+}
+
+.active {
+  background: #e10098;
+  color: #fbfbfb;
+}

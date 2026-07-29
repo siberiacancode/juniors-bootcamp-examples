@@ -1,0 +1,26 @@
+.tag {
+  width: 119px;
+  height: 52px;
+
+  padding: 12px 32px;
+
+  background-color: #f5f5f5;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activeTag {
+  color: #fbfbfb;
+  background-color: #e10098;
+  padding: 12px 18px;
+}
+.time {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5%;
+  margin-top: 1px;
+}

@@ -1,0 +1,19 @@
+:root {
+  --heading-2xl: 800 96px/96px Nunito;
+  --letter-spacing-heading-2xl: 0;
+
+  --heading-xl: 800 80px/82px Nunito;
+  --letter-spacing-heading-xl: 0;
+
+  --heading-lg: 700 60px/68px Nunito;
+  --letter-spacing-heading-lg: 0;
+
+  --heading-md: 700 48px/48px Nunito;
+  --letter-spacing-heading-md: -3%;
+
+  --title-lg: 700 32px/40px Nunito;
+  --letter-spacing: 0;
+
+  /* --title-md:   */
+;
+}

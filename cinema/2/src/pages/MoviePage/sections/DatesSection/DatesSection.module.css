@@ -1,0 +1,26 @@
+.section {
+  max-width: 541px;
+}
+.button {
+  max-width: 328px;
+}
+
+@media (max-width: 1195px) {
+  .section {
+    max-width: 100%;
+  }
+  .button {
+    align-self: center;
+    max-width: 100%;
+  }
+}
+/* @media (max-width: 545px) {
+  .section {
+    max-width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .section {
+    max-width: 300px;
+  }
+} */

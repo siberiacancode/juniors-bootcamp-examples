@@ -1,0 +1,37 @@
+.photo {
+  width: 72px;
+  height: 72px;
+}
+.actor {
+  width: 136px;
+}
+.actorsSection {
+  gap: 16px;
+}
+.actorName {
+  font-size: 18px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 620px) {
+  .photo {
+    width: 72px;
+    height: 72px;
+  }
+  .actor {
+    /* width: 81px; */
+  }
+  .actorsSection {
+    gap: 8px;
+  }
+  .actorName {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}

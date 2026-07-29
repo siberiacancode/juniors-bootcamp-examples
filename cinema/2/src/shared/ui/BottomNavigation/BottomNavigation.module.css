@@ -1,0 +1,29 @@
+.navigation {
+  display: none;
+
+  border: 1px solid #0b0b0b;
+
+  width: 328px;
+  height: 66px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 4px;
+
+  border-radius: 999px;
+
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* центрируем по горизонтали */
+
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); /* тень поверх shadow из Mantine */
+  z-index: 110;
+}
+
+@media (max-width: 620px) {
+  .navigation {
+    display: flex;
+  }
+}
