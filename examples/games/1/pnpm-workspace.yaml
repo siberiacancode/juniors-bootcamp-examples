@@ -1,0 +1,16 @@
+packages:
+  - 'server'
+
+allowBuilds:
+  esbuild: true
+  lefthook: true
+publicHoistPattern:
+  - eslint
+  - prettier
+  - vitest
+  - lefthook
+minimumReleaseAgeExclude:
+  - '@siberiacancode/reactuse'
+  - '@siberiacancode/uikit'
+  - '@siberiacancode/playwright'
+  - 'mock-config-server'

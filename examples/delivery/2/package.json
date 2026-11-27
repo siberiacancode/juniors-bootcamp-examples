@@ -1,0 +1,51 @@
+{
+  "name": "shift-reatom-delivery",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "mise run dev",
+    "build": "mise run build",
+    "lint": "mise run lint",
+    "lint:styles": "mise run lint:styles",
+    "format": "mise run format",
+    "preview": "mise run preview",
+    "typecheck": "mise run typecheck",
+    "validate": "mise run validate",
+    "generate-api": "npx apicraft generate"
+  },
+  "dependencies": {
+    "@mantine/core": "^9.2.1",
+    "@mantine/hooks": "^9.2.1",
+    "@mantine/notifications": "^9.2.1",
+    "@reatom/core": "^1001.1.0",
+    "@reatom/react": "^1001.0.0",
+    "@siberiacancode/fetches": "^1.14.3",
+    "lucide-react": "^1.17.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@siberiacancode/apicraft": "^1.11.1",
+    "@siberiacancode/eslint": "^2.16.13",
+    "@siberiacancode/prettier": "^1.6.1",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-component-name": "^0.1.0",
+    "postcss": "^8.5.15",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "stylelint": "^17.12.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-order": "^8.1.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12",
+    "vite-plugin-svgr": "^5.2.0"
+  },
+  "packageManager": "pnpm@11.5.2"
+}
